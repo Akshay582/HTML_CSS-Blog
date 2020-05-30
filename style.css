@@ -1,0 +1,54 @@
+p{
+/*	color: blue;*/
+	font-size: 20px;
+/*	font-family: serif;*/
+}
+
+h1{
+	font-size: 40px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+/*--Main--*/
+main{
+	width: 70%;
+	display: inline-block;
+}
+
+/*--Aside--*/
+aside{
+	display: inline-block;
+	width: 21%;
+	vertical-align: top;
+	margin-left: 4%;
+	margin-top: 5%;
+}
+
+.widget{
+	border-top: 4px solid black;
+}
+
+.widget input{
+	display: block;
+	background-color: #F7F7F7;
+	margin-bottom: 15px;
+	padding: 4px;
+	font-size: 1.2rem;
+}
+
+button[type="submit"]{
+	
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 35px;
+	
+}
+
+.widget-title{
+	font-size: 1.5rem;
+}
